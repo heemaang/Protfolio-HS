@@ -30,8 +30,36 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import profile from "./profile.png";
+
+import police from "./police.png";
+import stay from "./stay.png";
+import create from "./create.png";
+import galaxy from "./galaxy.png";
+
+import stayCationer from "./StayCationer.jpg";
+import aahaar from "./AAHAAR.jpg";
+import helpline from "./Helpline.jpg";
+import Create from "./CREATE.jpg";
+import Employee from "./Employee.jpg";
+import igalaxy from "./igalaxy.jpg"
+
+import many from "./many.png";
+
+
 export {
   logo,
+  many,
+  police,
+  helpline,
+  igalaxy,
+  Employee,
+  aahaar,
+  Create,
+  stayCationer,
+  galaxy,
+  stay,
+  create,
   backend,
   creator,
   mobile,
@@ -59,4 +87,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  profile
 };

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close, profile } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -25,11 +25,16 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/public/CV/resume.pdf"; // Make sure this path is correct
+    link.download = "HeemaangSaxena.pdf";
+    link.click();
+  };
+
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -42,10 +47,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={profile} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Heemaang &nbsp;
-            {/* <span className='sm:block hidden'> | </span> */}
           </p>
         </Link>
 
@@ -56,9 +60,17 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => {
+                if (nav.id === "resume") {
+                  handleDownload();
+                } else {
+                  setActive(nav.title);
+                }
+              }}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.id === "resume" ? "#" : `#${nav.id}`}>
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -84,11 +96,17 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
+                    if (nav.id === "resume") {
+                      handleDownload();
+                    } else {
+                      setToggle(!toggle);
+                      setActive(nav.title);
+                    }
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={nav.id === "resume" ? "#" : `#${nav.id}`}>
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
