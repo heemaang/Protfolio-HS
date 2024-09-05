@@ -227,15 +227,15 @@ const projects = [
       "Developed an advanced prototype of the 1930 helpline for the Rajasthan Cyber Police Hackathon using the MERN stack. Integrated AI/ML for legal decision-making, fraud detection, and personalized lawyer support.Designed a user-centric interface for clear communication and easy access for cybercrime victims. Also participated in code reviews, offering constructive feedback to enhance overall development.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -248,15 +248,15 @@ const projects = [
       "Spearheaded the development of the I-Galaxy e-commerce website, leading a team of 5, which increased project efficiency by 30% and ensured timely delivery. Crafted a robust backend and engaging frontend, achieving 99.9% system availability and enhancing user experience. Managed the entire project lifecycle, improving team collaboration and productivity by 25% through effective leadership. Additionally, implemented A/B testing, resulting in a significant boost in sales.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -269,15 +269,15 @@ const projects = [
       "Developed a comprehensive employee time tracking system that not only monitors work hours but also streamlines task assignment and project management. The system features real-time tracking of employee activities, automated reporting, and detailed project overviews, enabling managers to allocate tasks efficiently and identify bottlenecks swiftly. By providing actionable insights into employee performance and project timelines,.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -290,15 +290,15 @@ const projects = [
       "I developed a complex frontend using Next.js, designed to emulate a vintage OS with fully functional, draggable icons that behave like apps, similar to those on macOS. These icons can be dragged, opened as apps, and feature the ability to minimize, maximize, and close tabs, providing an authentic vintage OS experience. This project involved intricate design and functionality, showcasing advanced frontend development skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -311,15 +311,15 @@ const projects = [
       "Developed the Aahar project, a service-oriented platform focused on assisting impoverished communities by connecting them with nearby NGOs and food banks. The portal features an AI assistant to enhance user experience, making it easy for users and NGOs to connect directly and collaborate. The system includes a notifications feature to keep both parties informed and facilitate timely assistance, ensuring that help reaches those in need efficiently.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -355,15 +355,15 @@ const projects = [
       "In addition to the complex projects mentioned, I have created numerous other comprehensive and innovative applications that showcase my ability to tackle diverse challenges. These projects span various domains and technologies, each designed to solve specific problems with creativity and technical precision. My work consistently involves developing user-centric, feature-rich applications that are both functional and engaging.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
