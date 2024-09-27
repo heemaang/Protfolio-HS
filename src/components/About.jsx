@@ -48,14 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a passionate MERN stack developer and final year student at Vellore
-        Institute of Technology Bhopal pursuing B.Tech in CSE-Core, I specialize
-        in crafting robust web applications with a seamless user experience.
-        With proficiency in MongoDB, Express.js, React.js, and Node.js, I bring
-        your ideas to life by blending creativity with cutting-edge technology.
-        I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems.
+       As a dedicated freelancer and experienced MERN stack developer with 1.5 years of experience, I specialize in building dynamic web applications that deliver seamless user experiences. Currently in my final year pursuing a B.Tech in CSE-Core at Vellore Institute of Technology Bhopal, I have successfully completed various projects for multiple clients, translating their vision into efficient, scalable, and user-friendly solutions. With expertise in MongoDB, Express.js, React.js, and Node.js, I am adept at tackling real-world challenges through innovative technology and a collaborative, client-focused approach.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
